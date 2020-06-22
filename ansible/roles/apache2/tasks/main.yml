@@ -1,0 +1,11 @@
+---
+# tasks file for apache2
+- name: include installation apache2
+  include_tasks: install_apache2.yml
+  tags:
+    - install
+
+- name: include modification page apache2
+  include_tasks: customization_apache2.yml
+  tags:
+    - custom

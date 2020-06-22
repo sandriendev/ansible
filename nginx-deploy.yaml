@@ -1,4 +1,0 @@
----
-    - name: playbook install nginx
-      hosts: all
-      become: yes
